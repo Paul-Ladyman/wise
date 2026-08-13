@@ -137,6 +137,8 @@ This verifies that:
 
 The equivalent postData tests verify the same behaviour for posting.
 
+To confirm the behaviour further console.log statements can be added to the code to prove that these events occur sequentially, with no spurious calls to the client or unwanted parallelism.
+
 ## Summary
 
 The key distinction is:
