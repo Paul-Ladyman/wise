@@ -34,7 +34,7 @@ npm install
 
 ## Running the tests
 
-Run the test suite with:
+The tests can be found in `./src/wise.test.ts`. Run the test suite with:
 
 ```
 npm test
@@ -54,7 +54,7 @@ The tests cover:
 
 ## The await behaviour being demonstrated
 
-The retry functions are structured as follows:
+The code can be found in `./src/wise.ts`. The retry functions are structured as follows:
 
 ```
 async function getData() {
